@@ -50,7 +50,7 @@ DefaultHash = '''6EF97965'''
 
 [[NamedAnchors]]
 Name = '''scripts.battle.badge.obey.4badges'''
-Address = 0x01D45A
+Address = 0x01D41E
 Format = '''[level.]scripts.battle.badge.obey.0badges'''
 DefaultHash = '''6EF97965'''
 
