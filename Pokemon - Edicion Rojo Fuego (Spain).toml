@@ -62,7 +62,7 @@ DefaultHash = '''6EF97965'''
 
 [[NamedAnchors]]
 Name = '''scripts.newgame.starters.left'''
-Address = 0x0169C4C
+Address = 0x169c4c
 Format = '''[species1:data.pokemon.names]scripts.newgame.starters.middle'''
 DefaultHash = '''CC573F59'''
 
@@ -80,19 +80,19 @@ DefaultHash = '''B8699391'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.names'''
-Address = 0x245EE0
+Address = 0x24164c
 Format = '''[name""11]412'''
 DefaultHash = '''747F95CC'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.moves.names'''
-Address = 0x247094
+Address = 0x242800
 Format = '''^[name""13]355'''
 DefaultHash = '''C4BD7B07'''
 
 [[NamedAnchors]]
 Name = '''data.abilities.names'''
-Address = 0x24FC40
+Address = 0x24b408
 Format = '''[name""13]78'''
 DefaultHash = '''691941BB'''
 
