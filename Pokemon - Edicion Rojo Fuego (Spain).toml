@@ -98,103 +98,103 @@ DefaultHash = '''691941BB'''
 
 [[NamedAnchors]]
 Name = '''data.trainers.classes.names'''
-Address = 0x23E558
+Address = 0x239cc4
 Format = '''[name""13]107'''
 DefaultHash = '''3EF8CDDE'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.type.names'''
-Address = 0x24F1A0
+Address = 0x24a90c
 Format = '''^[name""7]data.pokemon.type.length'''
 DefaultHash = '''0E9784EA'''
 
 [[NamedAnchors]]
 Name = '''data.items.stats'''
-Address = 0x3DB028
+Address = 0x3d4f50
 Format = '''[name""13 unused. index: price: holdeffect.holdeffects param. description<""> keyitemvalue. bagkeyitem. pocket.pocketid type.|s=pocket(0=itemtype|1=itemtype|2=itemtype|4=itemtype|5=itemtype) fieldeffect<> battleusage:: battleeffect<> battleextra::]data.items.count'''
 DefaultHash = '''07F16966'''
 
 [[NamedAnchors]]
 Name = '''data.abilities.descriptions'''
-Address = 0x24FB08
+Address = 0x24b2d0
 Format = '''[description<"">]data.abilities.names'''
 DefaultHash = '''F80AF0FF'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.moves.descriptions'''
-Address = 0x4886E8
+Address = 0x47ef78
 Format = '''[description<"">]data.pokemon.moves.names-1'''
 DefaultHash = '''BD0C8971'''
 
 [[NamedAnchors]]
 Name = '''scripts.text.multichoice'''
-Address = 0x3E04B0
+Address = 0x3da3d8
 Format = '''[options<[text<""> unused::]/count> count::]65'''
 DefaultHash = '''4374F5BC'''
 
 [[NamedAnchors]]
 Name = '''scripts.text.listmenu'''
-Address = 0x3F5BCC
+Address = 0x3efea0
 Format = '''[option1<""> option2<""> option3<""> option4<""> option5<""> option6<""> option7<""> option8<""> option9<""> optionA<""> optionB<""> optionC<"">]7'''
 DefaultHash = '''9EB9AEC4'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.natures.names'''
-Address = 0x463E60
+Address = 0x45e4e0
 Format = '''[name<"">]25'''
 DefaultHash = '''60523DF3'''
 
 [[NamedAnchors]]
 Name = '''data.menus.text.options'''
-Address = 0x3CC314
+Address = 0x3c7a04
 Format = '''[text<"">]7'''
 DefaultHash = '''FB906E1D'''
 
 [[NamedAnchors]]
 Name = '''data.menus.text.pc'''
-Address = 0x3CEA88
+Address = 0x466cd4
 Format = '''[text<""> msgvar::messagevars]31'''
 DefaultHash = '''9D0F6DEF'''
 
 [[NamedAnchors]]
 Name = '''data.menus.text.pokemon'''
-Address = 0x45A2E8
+Address = 0x454960
 Format = '''[text<"">]27'''
 DefaultHash = '''A66C82FB'''
 
 [[NamedAnchors]]
 Name = '''data.menus.text.pcoptions'''
-Address = 0x4021E8
+Address = 0x3fcb64
 Format = '''[text<""> code<>]3'''
 DefaultHash = '''FCEF6A0D'''
 
 [[NamedAnchors]]
 Name = '''data.menus.namescreen.content'''
-Address = 0x3E22D0
+Address = 0x3dc1f8
 Format = '''[line""8]12'''
 DefaultHash = '''70C11A07'''
 
 [[NamedAnchors]]
 Name = '''data.menus.namescreen.draw'''
-Address = 0x3E264C
+Address = 0x3dc574
 Format = '''[line<[unknown:|h gap. character""1]!FF>]12'''
 DefaultHash = '''F7796E64'''
 
 [[NamedAnchors]]
 Name = '''scripts.newgame.names.male'''
-Address = 0x46308C
+Address = 0x45d704
 Format = '''[name<"">]19'''
 DefaultHash = '''37C8DDC8'''
 
 [[NamedAnchors]]
 Name = '''scripts.newgame.names.female'''
-Address = 0x4630D8
+Address = 0x45d750
 Format = '''[name<"">]19'''
 DefaultHash = '''37C8DDC8'''
 
 [[NamedAnchors]]
 Name = '''scripts.newgame.names.rival'''
-Address = 0x463124
+Address = 0x45d79c
 Format = '''[name<"">]4'''
 DefaultHash = '''A415D9EA'''
 
