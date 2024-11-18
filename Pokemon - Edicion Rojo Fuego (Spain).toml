@@ -362,37 +362,37 @@ DefaultHash = '''ADD31BCE'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.shiny.star.palette'''
-Address = 0x463B44
+Address = 0x45e1bc
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.evolution.scene.palette'''
-Address = 0x3F8400
+Address = 0x3f2719
 Format = '''`ucp4:AB`'''
 DefaultHash = '''AC887FAC'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.evolution.scene.tileset'''
-Address = 0x3F6CB0
+Address = 0x3f0f4c
 Format = '''`lzt4|graphics.pokemon.evolution.scene.palette`'''
 DefaultHash = '''B1C3D872'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.evolution.scene.tilemap1'''
-Address = 0x3F73A8
+Address = 0x3f1644
 Format = '''`lzm4x32x32|graphics.pokemon.evolution.scene.tileset`'''
 DefaultHash = '''BE1CF6B5'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.evolution.scene.tilemap2'''
-Address = 0x3F788C
+Address = 0x3f1b28
 Format = '''`lzm4x32x32|graphics.pokemon.evolution.scene.tileset`'''
 DefaultHash = '''BE1CF6B5'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.sprites.front'''
-Address = 0x23957C
+Address = 0x234ce8
 Format = '''[sprite<`lzs4x8x8|graphics.trainers.palettes.front`> uncompressedLength: index:]148'''
 DefaultHash = '''F6989B2D'''
 
@@ -404,31 +404,31 @@ DefaultHash = '''5B106A27'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.animations.back'''
-Address = 0x239F74
+Address = 0x2356e0
 Format = '''[animationPointer<[animation<[frame: time:]!FFFF0000>]2>]graphics.trainers.sprites.back.enter'''
 DefaultHash = '''E2699D55'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.animations.frames'''
-Address = 0x2390DC
+Address = 0x234848
 Format = '''[animationPointer<[animation<>]1>]graphics.trainers.sprites.front'''
 DefaultHash = '''A2403076'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.coordinates.front'''
-Address = 0x23932C
+Address = 0x234a98
 Format = '''[x. y. unused:]graphics.trainers.sprites.front'''
 DefaultHash = '''BF50BB8D'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.palettes.front'''
-Address = 0x239A1C
+Address = 0x235188
 Format = '''[palette<`lzp4`> index: unused:]graphics.trainers.sprites.front'''
 DefaultHash = '''C6C97AF8'''
 
 [[NamedAnchors]]
 Name = '''graphics.trainers.sprites.back.throw'''
-Address = 0x25DF50
+Address = 0x259718
 Format = '''[titleTag:|h paletteTag:|h oam<> anims<> sprites<`osl|graphics.trainers.palettes.back:sprite`> affineAnimations<> callback<>]graphics.trainers.sprites.back.enter'''
 DefaultHash = '''7DB38EA7'''
 
@@ -584,7 +584,7 @@ DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.items.sprites'''
-Address = 0x3D4294
+Address = 0x3cf48c
 Format = '''[sprite<`lzs4x3x3`> palette<`lzp4`>]data.items.stats+1'''
 DefaultHash = '''A0AF2FB0'''
 
