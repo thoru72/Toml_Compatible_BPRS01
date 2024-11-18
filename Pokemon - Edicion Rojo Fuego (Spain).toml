@@ -3863,63 +3863,63 @@ Offset = -1
 
 #################################
 [[OffsetPointer]]
-Address = 0x011510
+Address = 0x011480
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x0116C0
+Address = 0x011630
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x03E8F8
+Address = 0x03E7E4
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x03E9A0
+Address = 0x03E88C
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x040EE0
+Address = 0x040DCC
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x046204
+Address = 0x0461DC
 Offset = 0x000011
 
 [[OffsetPointer]]
-Address = 0x0462A8
+Address = 0x046280
 Offset = 0x000011
 
 [[OffsetPointer]]
-Address = 0x114DD8
+Address = 0x114FC8
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x115068
+Address = 0x115258
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x12DF5C
+Address = 0x12E0D8
 Offset = 0x000004
 
 [[OffsetPointer]]
-Address = 0x0C6D9C
+Address = 0x0C701C
 Offset = 0x000010
 
 [[OffsetPointer]]
-Address = 0x0BFCA4
+Address = 0x0BFF3C
 Offset = 0xFFFFFFF8
 
 [[OffsetPointer]]
-Address = 0x0BFCC4
+Address = 0x0BFF5C
 Offset = 0xFFFFFFF8
 
 [[OffsetPointer]]
-Address = 0x0728B8
+Address = 0x0728F0
 Offset = 0xFFFEC780
 
 [[OffsetPointer]]
-Address = 0x0728BC
+Address = 0x0728F4
 Offset = 0xFFFEC780
 
 #################################
