@@ -1418,139 +1418,139 @@ DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.picker.palette2'''
-Address = 0xE9C3F8
+Address = 0xe9c3c4
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.picker.palette'''
-Address = 0xE9C418
+Address = 0xe9c3e4
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.picker.tileset'''
-Address = 0xE9C438
+Address = 0xe9c404
 Format = '''`lzt4|graphics.menu.boxes.picker.palette`'''
 DefaultHash = '''B493C41C'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.hand.palette.normal'''
-Address = 0x3CE7F0
+Address = 0x3c99a8
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.hand.palette.catch'''
-Address = 0x3D2BCC
+Address = 0x3cdd84
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.hand.sprite'''
-Address = 0x3D2BEC
+Address = 0x3cdda4
 Format = '''`ucs4x4x16|graphics.menu.boxes.hand.palette.normal`'''
 DefaultHash = '''3B85B1A0'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.tileset'''
-Address = 0xE845D8
+Address = 0xe845c8
 Format = '''`lzt4|graphics.menu.tms.palette`'''
 DefaultHash = '''6967CC8D'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.background'''
-Address = 0xE84A24
+Address = 0xe84a14
 Format = '''`lzm4x32x32|graphics.menu.tms.tileset`'''
 DefaultHash = '''AE45998A'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.case'''
-Address = 0xE84B70
+Address = 0xe84b60
 Format = '''`lzm4x32x32|graphics.menu.tms.tileset`'''
 DefaultHash = '''AE45998A'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.palette'''
-Address = 0xE84CB0
+Address = 0xe84ca0
 Format = '''`lzp4`'''
 DefaultHash = '''59594BFE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.palette2'''
-Address = 0xE84D20
+Address = 0xe84d10
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.tms.hm_logo'''
-Address = 0xE99118
+Address = 0xe9904c
 Format = '''`ucs4x2x2`'''
 DefaultHash = '''46C5724F'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.help.palette'''
-Address = 0x464128
+Address = 0x45e7a8
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.text.bold.palette'''
-Address = 0x453098
+Address = 0x44d974
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.storage.background.palette1'''
-Address = 0x3CE738
+Address = 0x3c98f0
 Format = '''`ucp4:3`'''
 DefaultHash = '''B1DDC382'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.storage.background.palette2'''
-Address = 0x3CE758
+Address = 0x3c9910
 Format = '''`ucp4:3`'''
 DefaultHash = '''B1DDC382'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.storage.background.tileset'''
-Address = 0x3CE438
+Address = 0x3c95f0
 Format = '''`lzs4x4x2|graphics.menu.storage.background.palette1`'''
 DefaultHash = '''1972C0A9'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.storage.background.tilemap'''
-Address = 0x3CE4D0
+Address = 0x3c9688
 Format = '''`lzm4x32x32|graphics.menu.storage.background.tileset`'''
 DefaultHash = '''C8CF9F40'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.downarrow.palette'''
-Address = 0x41F408
+Address = 0x41a070
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.downarrow.sprite1'''
-Address = 0x1EA14C
+Address = 0x1e58b8
 Format = '''`ucs4x2x4|graphics.menu.downarrow.palette`'''
 DefaultHash = '''A882CA0A'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.downarrow.sprite2'''
-Address = 0x1EA24C
+Address = 0x1e59b8
 Format = '''`ucs4x4x6|graphics.menu.downarrow.palette`'''
 DefaultHash = '''E9D89D8A'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.downarrow.sprite3'''
-Address = 0x1EA54C
+Address = 0x1e5cb8
 Format = '''`ucs4x2x2|graphics.menu.downarrow.palette`'''
 DefaultHash = '''2100D044'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.downarrow.sprite4'''
-Address = 0x1EA5CC
+Address = 0x1e5d38
 Format = '''`ucs4x2x2|graphics.menu.downarrow.palette`'''
 DefaultHash = '''2100D044'''
 
@@ -1574,139 +1574,139 @@ DefaultHash = '''0BAF314C'''
 
 [[NamedAnchors]]
 Name = '''graphics.moves.tmcase.sprite'''
-Address = 0xE84D90
+Address = 0xe84d80
 Format = '''`lzs4x4x4|graphics.moves.tmcase.palette`'''
 DefaultHash = '''1DF90A6F'''
 
 [[NamedAnchors]]
 Name = '''graphics.moves.tmcase.palette'''
-Address = 0xE84F20
+Address = 0xe84f10
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.moves.tmcase.palette2'''
-Address = 0xE85068
+Address = 0xe85058
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.moves.tmcase.palettemap'''
-Address = 0x463238
+Address = 0x45d8b0
 Format = '''[offset:|t|::|page::::]data.pokemon.type.names'''
 DefaultHash = '''9248CE56'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.type.camouflage'''
-Address = 0x250888
+Address = 0x24c050
 Format = '''[type.data.pokemon.type.names]terrains'''
 DefaultHash = '''BC30858F'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.moves.details.naturepower.list'''
-Address = 0x25081C
+Address = 0x24bfe4
 Format = '''[move:data.pokemon.moves.names]terrains'''
 DefaultHash = '''7BF93AAB'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.game.palette'''
-Address = 0x465930
+Address = 0xeafd68
 Format = '''`ucp4:01234`'''
 DefaultHash = '''3E33F37D'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.game.tileset'''
-Address = 0x4659D0
+Address = 0xeafe08
 Format = '''`lzt4|graphics.gamecorner.game.palette`'''
 DefaultHash = '''FBE51D79'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.game.tilemap'''
-Address = 0x4661D4
+Address = 0xeb0618
 Format = '''`lzm4x32x20|graphics.gamecorner.game.tileset`'''
 DefaultHash = '''71ED594C'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.score.palette'''
-Address = 0x4665C0
+Address = 0x4600b4
 Format = '''`ucp4:789`'''
 DefaultHash = '''4C2D0AF3'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.score.tileset'''
-Address = 0x466620
+Address = 0x460114
 Format = '''`lzt4|graphics.gamecorner.score.palette`'''
 DefaultHash = '''9F5A3A5D'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.score.tilemap'''
-Address = 0x466998
+Address = 0x46048c
 Format = '''`lzm4x32x20|graphics.gamecorner.score.tileset`'''
 DefaultHash = '''64FA6516'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.sprites'''
-Address = 0x4655B0
+Address = 0x45fc30
 Format = '''[rolls<`lzs4x4x4`> a:: cheer<`lzs4x4x4`> b:: digits<`lzs4x5x4`> c::]1'''
 DefaultHash = '''DEB81A6E'''
 
 [[NamedAnchors]]
 Name = '''graphics.gamecorner.palettes'''
-Address = 0x4655C8
+Address = 0x3dc60c
 Format = '''[pal<`ucp4`> id::]7'''
 DefaultHash = '''C6B4016F'''
 
 [[NamedAnchors]]
 Name = '''data.gamecorner.payout'''
-Address = 0x464966
+Address = 0x45efe6
 Format = '''[payout:]7'''
 DefaultHash = '''FABFB542'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.questionnaire.palette'''
-Address = 0xE99D8C
+Address = 0xe99cd4
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.questionnaire.tileset'''
-Address = 0xE99DAC
+Address = 0xe99cf4
 Format = '''`lzt4|graphics.misc.questionnaire.palette`'''
 DefaultHash = '''823655A9'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.questionnaire.tilemap'''
-Address = 0xE99E74
+Address = 0xe99dbc
 Format = '''`lzm4x32x20|graphics.misc.questionnaire.tileset`'''
 DefaultHash = '''CB38E889'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.questionnaire.button.palette'''
-Address = 0xE99F24
+Address = 0xe99e6c
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.questionnaire.button.sprite'''
-Address = 0xE99F44
+Address = 0xe99e8c
 Format = '''`lzs4x8x8|graphics.misc.questionnaire.button.palette`'''
 DefaultHash = '''F0D8A80D'''
 
 [[NamedAnchors]]
 Name = '''graphics.misc.stationary'''
-Address = 0x468720
+Address = 0x462108
 Format = '''[id:: tileset<`lzt4`> tilemap<`lzm4x30x24|table`> palette<`ucp4`>]8'''
 DefaultHash = '''F54A83E4'''
 
 [[NamedAnchors]]
 Name = '''graphics.overworld.firstpersonview.sprites'''
-Address = 0x43E9E8
+Address = 0x439650
 Format = '''[id.data.maps.names+88 transition.transitiontype worldmapflag:|h tileset<`lzt4|graphics.firstpersonview.sprites`> tilemap<`lzm4x32x20|graphics.firstpersonview.sprites`> pal<`ucp4:DE`>]graphics.firstpersonview.count'''
 DefaultHash = '''FD65B7D8'''
 
 [[NamedAnchors]]
 Name = '''graphics.battle.background.sprites'''
-Address = 0x24EE34
+Address = 0x24a5a0
 Format = '''[battletiles<`lzt4`> battlemap<`lzm4x32x64|graphics.battle.background.sprites|battletiles`> | introtiles<`lzt4`> intromap<`lzm4x32x14|graphics.battle.background.sprites|introtiles`> pal<`lzp4:234`>]20'''
 DefaultHash = '''7C9AA1A9'''
 
