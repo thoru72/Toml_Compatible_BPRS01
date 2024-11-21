@@ -980,265 +980,265 @@ DefaultHash = '''9A7B740C'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.hoennToNational'''
-Address = 0x252324
+Address = 0x24daec
 Format = '''[index:]data.pokemon.names-1'''
 DefaultHash = '''9A7B740C'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.stats'''
-Address = 0x44E850
+Address = 0x44912c
 Format = '''[species""12 height: heightInches|=height÷.254 weight: weightLbs|=weight÷4.536 description1<""> description2<""> unused: pokemonScale: pokemonOffset:|z trainerScale: trainerOffset:|z unused:]387'''
 DefaultHash = '''C6A5A4E0'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.search.alpha'''
-Address = 0x443FC0
+Address = 0x43e834
 Format = '''[species:data.pokedex.national]data.pokedex.national'''
 DefaultHash = '''742C6C04'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.search.weight'''
-Address = 0x4442F6
+Address = 0x43eb6a
 Format = '''[species:data.pokedex.national]data.pokedex.national-25'''
 DefaultHash = '''372DB1AA'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.search.size'''
-Address = 0x4445FA
+Address = 0x43ee6e
 Format = '''[species:data.pokedex.national]data.pokedex.national-25'''
 DefaultHash = '''372DB1AA'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.search.type'''
-Address = 0x4448FE
+Address = 0x43f172
 Format = '''[species:data.pokemon.names]data.pokedex.national'''
 DefaultHash = '''121F4AFC'''
 
 [[NamedAnchors]]
 Name = '''data.pokemon.type.unionroom.options'''
-Address = 0x456E74
+Address = 0x4515ec
 Format = '''[type<> index::]data.pokemon.type.names-1+1'''
 DefaultHash = '''BB078110'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.habitat.names'''
-Address = 0x452344
+Address = 0x44cc20
 Format = '''[name<"">]9'''
 DefaultHash = '''C7BBBFD8'''
 
 [[NamedAnchors]]
 Name = '''data.pokedex.habitat.pages'''
-Address = 0x452C4C
+Address = 0x44d528
 Format = '''[data<[pokemon<[species:data.pokemon.names]/pokecount> pokecount::]/count> count::]data.pokedex.habitat.names'''
 DefaultHash = '''4092CA07'''
 
 [[NamedAnchors]]
 Name = '''data.battletower.items'''
-Address = 0x3FFAC4
+Address = 0x3fa440
 Format = '''[item:data.items.stats]64'''
 DefaultHash = '''EFC2E963'''
 
 [[NamedAnchors]]
 Name = '''data.battletower.pokemon.level50'''
-Address = 0x3FFB44
+Address = 0x3fa4c0
 Format = '''[species:data.pokemon.names heldItem.data.battletower.items flags.|h move1:data.pokemon.moves.names move2:data.pokemon.moves.names move3:data.pokemon.moves.names move4:data.pokemon.moves.names evSpread|b[]battletowerEvFlags nature.data.pokemon.natures.names unused:]300'''
 DefaultHash = '''28977760'''
 
 [[NamedAnchors]]
 Name = '''data.battletower.pokemon.level100'''
-Address = 0x400E04
+Address = 0x3fb780
 Format = '''[species:data.pokemon.names heldItem.data.battletower.items flags.|h move1:data.pokemon.moves.names move2:data.pokemon.moves.names move3:data.pokemon.moves.names move4:data.pokemon.moves.names evSpread|b[]battletowerEvFlags nature.data.pokemon.natures.names unused:]300'''
 DefaultHash = '''28977760'''
 
 [[NamedAnchors]]
 Name = '''data.battletower.prizes'''
-Address = 0x47A2B4
+Address = 0x472bf4
 Format = '''[item:data.items.stats]15'''
 DefaultHash = '''4C530BBA'''
 
 [[NamedAnchors]]
 Name = '''data.trainers.trainertower.trainers'''
-Address = 0x4827B4
+Address = 0x47affc
 Format = '''[trainer<[id. floor. challengetype. prize. name""11 class. textColor. unused. beforeWord1:|h beforeWord2:|h beforeWord3:|h beforeWord4:|h beforeWord5:|h beforeWord6:|h winWord1:|h winWord2:|h winWord3:|h winWord4:|h winWord5:|h winWord6:|h lostWord1:|h lostWord2:|h lostWord3:|h lostWord4:|h lostWord5:|h lostWord6:|h afterWord1:|h afterWord2:|h afterWord3:|h afterWord4:|h afterWord5:|h afterWord6:|h unused: [species:data.pokemon.names heldItem:data.items.stats move1:data.pokemon.moves.names move2:data.pokemon.moves.names move3:data.pokemon.moves.names move4:data.pokemon.moves.names unknown: hpEv. atkEv. defEv. speedEv. spatkEv. spdefEv. otID::|h IVs::|t|hp::.|atk::.|def::.|spd::.|spatk::.|spdef::.|unused.|2ndAbility. personality:: nickname""11 friendship.]6]1>]32'''
 DefaultHash = '''22C65576'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.type.icons'''
-Address = 0xE95DDC
+Address = 0xe95d10
 Format = '''`ucs4x16x16|graphics.pokemon.type.palettes`'''
 DefaultHash = '''3CE0BFB0'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.type.pokeball.palettes'''
-Address = 0xE95D9C
+Address = 0xe95cd0
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.type.palettes'''
-Address = 0xE95DBC
+Address = 0xe95cf0
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.pokemon.type.map'''
-Address = 0x452C94
+Address = 0x44d570
 Format = '''[width. height. xy:|t|:|x:|.|y::]data.pokemon.type.names+1+5'''
 DefaultHash = '''F7C833E7'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.importer'''
-Address = 0x467FB8
+Address = 0x4619a0
 Format = '''[titleTextPal. bodyTextPal. footerTextPal. stampShadowPal. tileset<`lzt4`> tilemap<`lzm4x30x20|graphics.text.importer`> pal<`ucp4`>]8'''
 DefaultHash = '''FCAAAB2A'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.box.about'''
-Address = 0x4566A8
+Address = 0x450e20
 Format = '''`ucs4x5x4|graphics.text.box.palette`'''
 DefaultHash = '''594E5297'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.box.palette'''
-Address = 0x471DEC
+Address = 0x46a798
 Format = '''`ucp4:01234`'''
 DefaultHash = '''3E33F37D'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.box.message'''
-Address = 0x41F1C8
+Address = 0x419e30
 Format = '''`uct4x18|graphics.text.box.palette`'''
 DefaultHash = '''282B098C'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.box.signpost'''
-Address = 0x470B0C
+Address = 0x4694b8
 Format = '''`uct4x19|graphics.text.box.palette`'''
 DefaultHash = '''DC5EE6CD'''
 
 [[NamedAnchors]]
 Name = '''graphics.text.boxes'''
-Address = 0x471E8C
+Address = 0x46a838
 Format = '''[sprite<`ucs4x3x3`> pal<`ucp4`>]10'''
 DefaultHash = '''F12F05CC'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.male'''
-Address = 0xE8362C
+Address = 0xe8361c
 Format = '''`lzs4x8x8|graphics.bag.palette`'''
 DefaultHash = '''AA9AF83C'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.female'''
-Address = 0xE83DBC
+Address = 0xe83dac
 Format = '''`lzs4x8x8|graphics.bag.palette`'''
 DefaultHash = '''AA9AF83C'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.palette'''
-Address = 0xE84560
+Address = 0xe84550
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.berrycase.palette'''
-Address = 0xE85C1C
+Address = 0xe85c0c
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.berrycase.sprite'''
-Address = 0xE8560C
+Address = 0xe855fc
 Format = '''`lzs4x8x8|graphics.bag.berrycase.palette`'''
 DefaultHash = '''2AEFB76C'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.palette'''
-Address = 0xE835B4
+Address = 0xe835f4
 Format = '''`lzp4`'''
 DefaultHash = '''F41AF6F8'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.tileset'''
-Address = 0xE830CC
+Address = 0xe830bc
 Format = '''`lzt4|graphics.bag.inside1.palette`'''
 DefaultHash = '''346F7244'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.tilemap.item'''
-Address = 0xE832C0
+Address = 0xe832b0
 Format = '''`lzm4x32x32|graphics.bag.inside1.tileset`'''
 DefaultHash = '''17BCFEBB'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.tilemap.deposite'''
-Address = 0xE83444
+Address = 0xe83434
 Format = '''`lzm4x32x32|graphics.bag.inside1.tileset`'''
 DefaultHash = '''17BCFEBB'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.berry.palette'''
-Address = 0xE85408
+Address = 0xe853f8
 Format = '''`lzp4`'''
 DefaultHash = '''F41AF6F8'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.berry.tileset'''
-Address = 0xE85090
+Address = 0xe85080
 Format = '''`lzt4|graphics.bag.inside1.berry.palette`'''
 DefaultHash = '''15AFB1F8'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside1.berry.tilemap'''
-Address = 0xE85458
+Address = 0xe85448
 Format = '''`lzm4x32x32|graphics.bag.inside1.berry.tileset`'''
 DefaultHash = '''EC9B1E2D'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside2.palette'''
-Address = 0xE85BA4
+Address = 0xe85b94
 Format = '''`lzp4`'''
 DefaultHash = '''F41AF6F8'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside2.tileset'''
-Address = 0xE859D0
+Address = 0xe859c0
 Format = '''`lzt4|graphics.bag.inside2.palette`'''
 DefaultHash = '''42008CAD'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside2.tilemap'''
-Address = 0xE85C44
+Address = 0xe85c34
 Format = '''`lzm4x32x32|graphics.bag.inside2.tileset`'''
 DefaultHash = '''E4880701'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside3.palette'''
-Address = 0xE86170
+Address = 0xe86160
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside3.tileset'''
-Address = 0xE85DC8
+Address = 0xe85db8
 Format = '''`lzt4|graphics.bag.inside3.palette`'''
 DefaultHash = '''667265DC'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside3.tilemap1'''
-Address = 0xE85EFC
+Address = 0xe85eec
 Format = '''`lzm4x32x32|graphics.bag.inside3.tileset`'''
 DefaultHash = '''FE9C5B78'''
 
 [[NamedAnchors]]
 Name = '''graphics.bag.inside3.tilemap2'''
-Address = 0xE86038
+Address = 0xe86028
 Format = '''`lzm4x32x32|graphics.bag.inside3.tileset`'''
 DefaultHash = '''FE9C5B78'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokeball.palette'''
-Address = 0xE82E7C
+Address = 0xe82e7c
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
@@ -1256,13 +1256,13 @@ DefaultHash = '''9B056E98'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.status.palette'''
-Address = 0xE830A4
+Address = 0xe83094
 Format = '''`lzp4`'''
 DefaultHash = '''B8A62814'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.status.sprite'''
-Address = 0xE82EA0
+Address = 0xe82ea0
 Format = '''`lzs4x4x8|graphics.menu.status.palette`'''
 DefaultHash = '''2B713589'''
 
@@ -1286,133 +1286,133 @@ DefaultHash = '''B9F1A5F5'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.palette'''
-Address = 0xE9B310
+Address = 0xe9b2e8
 Format = '''`ucp4:0123456`'''
 DefaultHash = '''8AE6C82B'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tileset'''
-Address = 0xE9A460
+Address = 0xe9a3e0
 Format = '''`lzt4|graphics.menu.summaryscreen.palette`'''
 DefaultHash = '''AAD3DE57'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.info'''
-Address = 0xE9B598
+Address = 0xe9b570
 Format = '''`lzm4x32x20|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''A5E35429'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.skills'''
-Address = 0xE9B750
+Address = 0xe9b728
 Format = '''`lzm4x32x20|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''A5E35429'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.knownmoves'''
-Address = 0xE9B950
+Address = 0xe9b928
 Format = '''`lzm4x32x32|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''68128181'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.egg'''
-Address = 0xE9BBCC
+Address = 0xe9bba4
 Format = '''`lzm4x32x20|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''A5E35429'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.changemoves'''
-Address = 0xE9BA9C
+Address = 0xe9ba74
 Format = '''`lzm4x32x20|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''A5E35429'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.relearner.palette'''
-Address = 0xE97DDC
+Address = 0xe97d10
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.relearner.tileset'''
-Address = 0xE97DFC
+Address = 0xe97d30
 Format = '''`lzt4|graphics.menu.relearner.palette`'''
 DefaultHash = '''91D4B099'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.relearner.tilemap'''
-Address = 0xE97EC4
+Address = 0xe97df8
 Format = '''`lzm4x32x32|graphics.menu.relearner.tileset`'''
 DefaultHash = '''6C3E76A0'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.tilemap.relearner'''
-Address = 0x463C80
+Address = 0x45e2f8
 Format = '''`lzm4x32x32|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''68128181'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.summaryscreen.unknown.tilemap3'''
-Address = 0x463B88
+Address = 0x45e200
 Format = '''`lzm4x32x20|graphics.menu.summaryscreen.tileset`'''
 DefaultHash = '''A5E35429'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.partyscreen.selection.palette'''
-Address = 0x463720
+Address = 0x45dd98
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.partyscreen.selection.sprite1'''
-Address = 0x463740
+Address = 0x45ddb8
 Format = '''`lzs4x8x8|graphics.menu.partyscreen.selection.palette`'''
 DefaultHash = '''9E966162'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.partyscreen.selection.sprite2'''
-Address = 0x46386C
+Address = 0x45dee4
 Format = '''`lzs4x8x8|graphics.menu.partyscreen.selection.palette`'''
 DefaultHash = '''9E966162'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokemon.background.palette'''
-Address = 0xE829C8
+Address = 0xe829c8
 Format = '''`lzp4`'''
 DefaultHash = '''4B76FBB2'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokemon.background.tileset'''
-Address = 0xE82700
+Address = 0xe82700
 Format = '''`lzt4|graphics.menu.pokemon.background.palette`'''
 DefaultHash = '''C4E9B9F6'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokemon.background.tilemap'''
-Address = 0xE82AB0
+Address = 0xe82ab0
 Format = '''`lzm4x32x32|graphics.menu.pokemon.background.tileset`'''
 DefaultHash = '''62A2999E'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokemon.item.sprite'''
-Address = 0x45A3AC
+Address = 0x454a24
 Format = '''`ucs4x1x2|graphics.menu.pokemon.item.palette`'''
 DefaultHash = '''E0CA6834'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.pokemon.item.palette'''
-Address = 0x45A3EC
+Address = 0x454a64
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.background'''
-Address = 0x3D2A10
+Address = 0x3cdbc8
 Format = '''[tileset<`lzt4`> tilemap<`lzm4x20x18|graphics.menu.boxes.background`> palette<`ucp4:12`>]16'''
 DefaultHash = '''466C9C65'''
 
 [[NamedAnchors]]
 Name = '''graphics.menu.boxes.picker.party.palette'''
-Address = 0xE9C3D8
+Address = 0xe9c3a4
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
