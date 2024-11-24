@@ -2042,211 +2042,211 @@ DefaultHash = '''89CAF52E'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.tilemap2'''
-Address = 0x408D98
+Address = 0x4036b4
 Format = '''`lzm4x32x64|graphics.titlescreen.introscene.gengar.tileset2`'''
 DefaultHash = '''DEE12226'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.sprite2'''
-Address = 0x40A3E4
+Address = 0x404d00
 Format = '''`lzs4x8x8|graphics.titlescreen.introscene.nidorino.palette`'''
 DefaultHash = '''001E20FE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.sprite'''
-Address = 0x409A3C
+Address = 0x404358
 Format = '''`lzs4x8x4|graphics.titlescreen.introscene.grass.palette`'''
 DefaultHash = '''9507BA60'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.sprite2'''
-Address = 0x409D20
+Address = 0x40463c
 Format = '''`lzs4x8x8|graphics.titlescreen.introscene.gengar.palette`'''
 DefaultHash = '''70884214'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.slash.tiles'''
-Address = 0x40B874
+Address = 0x406190
 Format = '''`lzt4`'''
 DefaultHash = '''2D419A01'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.palette'''
-Address = 0x407430
+Address = 0x401d4c
 Format = '''`ucp4:12`'''
 DefaultHash = '''4DB379A2'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.tileset'''
-Address = 0x407470
+Address = 0x401d8c
 Format = '''`lzt4|graphics.titlescreen.introscene.forest.palette`'''
 DefaultHash = '''9B9FFEE1'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.tilemap'''
-Address = 0x407A50
+Address = 0x40236c
 Format = '''`lzm4x32x20|graphics.titlescreen.introscene.forest.tileset`'''
 DefaultHash = '''E244FAAB'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.palette2'''
-Address = 0x4053B4
+Address = 0x3ffcd0
 Format = '''`ucp4:123`'''
 DefaultHash = '''4BCF48E4'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.tileset2'''
-Address = 0x405414
+Address = 0x3ffd30
 Format = '''`lzt4|graphics.titlescreen.introscene.forest.palette2`'''
 DefaultHash = '''3DEBAEC1'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.forest.tilemap2'''
-Address = 0x405890
+Address = 0x4001ac
 Format = '''`lzm4x32x64|graphics.titlescreen.introscene.forest.tileset2`'''
 DefaultHash = '''961F4494'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.palette1'''
-Address = 0x402D34
+Address = 0x3fd650
 Format = '''`ucp4:1`'''
 DefaultHash = '''36E0323E'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.tileset'''
-Address = 0x402D54
+Address = 0x3fd670
 Format = '''`lzt4|graphics.titlescreen.introscene.grass.palette1`'''
 DefaultHash = '''790C0A8A'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.tilemap'''
-Address = 0x403FE8
+Address = 0x3fe904
 Format = '''`lzm4x32x64|graphics.titlescreen.introscene.grass.tileset`'''
 DefaultHash = '''1AF0D8E5'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.tileset2'''
-Address = 0x405B28
+Address = 0x400444
 Format = '''`lzt4|graphics.titlescreen.introscene.forest.palette2`'''
 DefaultHash = '''3DEBAEC1'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.tilemap2'''
-Address = 0x405CDC
+Address = 0x4005f8
 Format = '''`lzm4x32x20|graphics.titlescreen.introscene.grass.tileset2`'''
 DefaultHash = '''9404B9C4'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.background.palette'''
-Address = 0x4048CC
+Address = 0x3ff1e8
 Format = '''`ucp4:2`'''
 DefaultHash = '''9FC48E28'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.background.tileset'''
-Address = 0x4048EC
+Address = 0x3ff208
 Format = '''`lzt4|graphics.titlescreen.introscene.grass.background.palette`'''
 DefaultHash = '''CA9DB4A2'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.background.tilemap'''
-Address = 0x404F7C
+Address = 0x3ff898
 Format = '''`lzm4x32x64|graphics.titlescreen.introscene.grass.background.tileset`'''
 DefaultHash = '''23B7B24C'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.palette1'''
-Address = 0x402A44
+Address = 0x3fd3c0
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.palette2'''
-Address = 0x402ABC
+Address = 0x3fd438
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.palette3'''
-Address = 0x40270C
+Address = 0x3fd088
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.bigstar'''
-Address = 0x402A64
+Address = 0x4668f0
 Format = '''`lzs4x2x2|graphics.titlescreen.developer.palette1`'''
 DefaultHash = '''B42EE65A'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.littlestar'''
-Address = 0x402ADC
+Address = 0x3fd458
 Format = '''`lzs4x1x1|graphics.titlescreen.developer.palette2`'''
 DefaultHash = '''A2ECCBC3'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.mediumstar'''
-Address = 0x402B2C
+Address = 0x3fd4a8
 Format = '''`lzs4x4x4|graphics.titlescreen.developer.palette2`'''
 DefaultHash = '''2665102F'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.logo'''
-Address = 0x4028F8
+Address = 0x3fd274
 Format = '''`lzs4x4x8|graphics.titlescreen.developer.palette3`'''
 DefaultHash = '''49C1516C'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.presents'''
-Address = 0x402CD4
+Address = 0xeafd04
 Format = '''`lzs4x8x1|graphics.titlescreen.developer.palette3`'''
 DefaultHash = '''BC784389'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.developer.text'''
-Address = 0x40272C
+Address = 0x3fd0a8
 Format = '''`lzs4x18x2|graphics.titlescreen.developer.palette3`'''
 DefaultHash = '''4E3B5E4E'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.copyright.tileset'''
-Address = 0x402280
+Address = 0x3fcbfc
 Format = '''`lzt4|graphics.titlescreen.copyright.palette`'''
 DefaultHash = '''9C65CBAD'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.copyright.tilemap'''
-Address = 0x4024E4
+Address = 0x3fce60
 Format = '''`lzm4x32x32|graphics.titlescreen.copyright.tileset`'''
 DefaultHash = '''DB42FD7C'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.copyright.palette'''
-Address = 0x402260
+Address = 0x3fcbdc
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.newgame.platform.palette'''
-Address = 0x4629D0
+Address = 0x45d048
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.newgame.platform.sprite'''
-Address = 0x462A10
+Address = 0x45d088
 Format = '''`lzs4x4x12|graphics.newgame.platform.palette`'''
 DefaultHash = '''954B2365'''
 
 [[NamedAnchors]]
 Name = '''graphics.newgame.pikachu.palette'''
-Address = 0x4629F0
+Address = 0x45d068
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.newgame.pikachu.body'''
-Address = 0x462B74
+Address = 0x45d1ec
 Format = '''`lzs4x4x8|graphics.newgame.pikachu.palette`'''
 DefaultHash = '''E7A57170'''
 
