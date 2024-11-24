@@ -1814,13 +1814,13 @@ DefaultHash = '''D0D09EF4'''
 
 [[NamedAnchors]]
 Name = '''graphics.battle.animations.special'''
-Address = 0x1C6EA8
+Address = 0x1c69d4
 Format = '''[animation<`ase`>]effectanimations'''
 DefaultHash = '''F048E73B'''
 
 [[NamedAnchors]]
 Name = '''graphics.battle.animations.statchange.palette.p1'''
-Address = 0xD2DD3C
+Address = 0xd2dd3c
 Format = '''`lzp4:8`'''
 DefaultHash = '''4196E8C6'''
 
@@ -1886,7 +1886,7 @@ DefaultHash = '''2D957802'''
 
 [[NamedAnchors]]
 Name = '''graphics.battle.animations.misc'''
-Address = 0x1C6F18
+Address = 0x1c6a44
 Format = '''[pointer<>]miscanimations'''
 DefaultHash = '''300892D6'''
 
@@ -1898,145 +1898,145 @@ DefaultHash = '''8A57B18B'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.background.animation.sprite'''
-Address = 0x3BF79C
+Address = 0x3bae8c
 Format = '''`lzs4x2x2|graphics.titlescreen.background.animation.palette`'''
 DefaultHash = '''91ADB897'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.background.animation.palette'''
-Address = 0x3BF77C
+Address = 0x3bae6c
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.logo.palette'''
-Address = 0xEAB6C4
+Address = 0xeaa058
 Format = '''`ucp8`'''
 DefaultHash = '''A9BC5E83'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.logo.tileset'''
-Address = 0xEAB8C4
+Address = 0xeaa258
 Format = '''`lzt8|graphics.titlescreen.logo.palette`'''
 DefaultHash = '''B098CEFE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.logo.tilemap'''
-Address = 0xEAD390
+Address = 0xeabd90
 Format = '''`lzm8x32x20|graphics.titlescreen.logo.tileset`'''
 DefaultHash = '''537BB87D'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.pokemon.palette'''
-Address = 0xEAD5E8
+Address = 0xeabff8
 Format = '''`ucp4:D`'''
 DefaultHash = '''1D4A70A6'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.pokemon.tileset'''
-Address = 0xEAD608
+Address = 0xeac018
 Format = '''`lzt4|graphics.titlescreen.pokemon.palette`'''
 DefaultHash = '''CFEB5357'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.pokemon.tilemap'''
-Address = 0xEADEE4
+Address = 0xeac8f4
 Format = '''`lzm4x32x20|graphics.titlescreen.pokemon.tileset`'''
 DefaultHash = '''677994AF'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.publisher.palette'''
-Address = 0xEAE094
+Address = 0xeacaa4
 Format = '''`ucp4:F`'''
 DefaultHash = '''A7B7E492'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.publisher.tileset'''
-Address = 0xEAE0B4
+Address = 0xeacac4
 Format = '''`lzt4|graphics.titlescreen.publisher.palette`'''
 DefaultHash = '''AEF6A7A0'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.publisher.tilemap'''
-Address = 0xEAE374
+Address = 0xeacda0
 Format = '''`lzm4x32x20|graphics.titlescreen.publisher.tileset`'''
 DefaultHash = '''4E82430B'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.widescreen.tileset'''
-Address = 0x3BF58C
+Address = 0x3bac7c
 Format = '''`lzt4|graphics.titlescreen.publisher.palette`'''
 DefaultHash = '''AEF6A7A0'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.widescreen.tilemap'''
-Address = 0x3BF5A8
+Address = 0x3bac98
 Format = '''`lzm4x32x20|graphics.titlescreen.widescreen.tileset`'''
 DefaultHash = '''36283590'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.palette'''
-Address = 0x405DA4
+Address = 0x4006c0
 Format = '''`ucp4:5`'''
 DefaultHash = '''09B604D1'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.palette'''
-Address = 0x4096AC
+Address = 0x403fc8
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.grass.palette'''
-Address = 0x409A1C
+Address = 0x404338
 Format = '''`ucp4`'''
 DefaultHash = '''37B1CAEE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.sprite'''
-Address = 0x40926C
+Address = 0x403b88
 Format = '''`lzs4x8x8|graphics.titlescreen.introscene.gengar.palette`'''
 DefaultHash = '''70884214'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.sprite'''
-Address = 0x4096CC
+Address = 0x403fe8
 Format = '''`lzs4x8x8|graphics.titlescreen.introscene.nidorino.palette`'''
 DefaultHash = '''001E20FE'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.palette1'''
-Address = 0x406634
+Address = 0x400f50
 Format = '''`ucp4:6`'''
 DefaultHash = '''C38AECA3'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.tileset'''
-Address = 0x406654
+Address = 0x400f70
 Format = '''`lzt4|graphics.titlescreen.introscene.nidorino.palette1`'''
 DefaultHash = '''3BB07573'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.nidorino.tilemap'''
-Address = 0x4071D0
+Address = 0x401aec
 Format = '''`lzm4x32x32|graphics.titlescreen.introscene.nidorino.tileset`'''
 DefaultHash = '''BDEB6E9E'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.tileset'''
-Address = 0x405DC4
+Address = 0x4006e0
 Format = '''`lzt4|graphics.titlescreen.introscene.gengar.palette`'''
 DefaultHash = '''89CAF52E'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.tilemap'''
-Address = 0x40644C
+Address = 0x400d68
 Format = '''`lzm4x32x32|graphics.titlescreen.introscene.gengar.tileset`'''
 DefaultHash = '''5EB71B92'''
 
 [[NamedAnchors]]
 Name = '''graphics.titlescreen.introscene.gengar.tileset2'''
-Address = 0x407B9C
+Address = 0x4024b8
 Format = '''`lzt4|graphics.titlescreen.introscene.gengar.palette`'''
 DefaultHash = '''89CAF52E'''
 
